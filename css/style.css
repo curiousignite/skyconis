@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic");
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 
 body {
   background: white;
   font-family: "Quicksand", sans-serif;
-  
+
   font-weight: 400;
   color: #505050;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   font-size: 14px;
+}
+.dark-body {
+  background: #1a1d1e;
+  color: #c7c1b7;
+}
+.dark-p {
+  color: rgb(208, 201, 193);
 }
 /***basics****/
 a,
@@ -182,7 +189,7 @@ h6 {
   color: #03a9f4;
 }
 
-.after-color #reference{
+.after-color #reference {
   color: #03a9f4;
 }
 
@@ -192,9 +199,6 @@ h6 {
   color: #03a9f4;
   background-color: transparent;
 }
-
-
-
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,

@@ -38,4 +38,9 @@ var swiper = new Swiper(".slide-content", {
       slidesPerView: 7,
     },
   },
-})
+});
+
+function toggle_dark_mode() {
+  var body = document.body;
+  body.classList.toggle("dark-body");
+}
