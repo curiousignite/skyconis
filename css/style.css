@@ -520,16 +520,6 @@ TEAM CSS
   transition: all 0.3s ease;
   text-align: center;
 }
-.slide-items {
-  /*padding: 50px 40px;*/
-}
-.slide-items p {
-  color: #fff;
-}
-.slide-items h5 {
-  margin-bottom: 0px;
-  color: #03a9f4;
-}
 .testimonials .flexslider {
   background: rgba(0, 0, 0, 0);
   border: 0px;
