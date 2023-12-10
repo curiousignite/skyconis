@@ -39,8 +39,3 @@ var swiper = new Swiper(".slide-content", {
     },
   },
 });
-
-function toggle_dark_mode() {
-  var body = document.body;
-  body.classList.toggle("dark-body");
-}

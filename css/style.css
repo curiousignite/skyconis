@@ -11,13 +11,6 @@ body {
   -webkit-text-size-adjust: 100%;
   font-size: 14px;
 }
-.dark-body {
-  background: #1a1d1e;
-  color: #c7c1b7;
-}
-.dark-p {
-  color: rgb(208, 201, 193);
-}
 /***basics****/
 a,
 a:hover,
