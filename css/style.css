@@ -771,6 +771,7 @@ cta
   font-size: 12px;
 }
 .footer {
+  margin-top: 2 em;
   padding: 50px 0;
   background-color: #03a9f4;
 }
@@ -819,9 +820,10 @@ cta
 .pager li > span {
   color: #03a9f4;
 }
-.gallery {
+.ref-border {
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
 }
 .references {
   display: grid;
@@ -830,23 +832,25 @@ cta
   padding-right: 10%;
   grid-column-gap: 50px;
   grid-row-gap: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .filter-container {
   text-align: center;
 }
-.ref_image {
+.ref-image {
   text-align: center;
   box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.09);
-  width: 250px;
-  height: 250px;
+  width: 100%;
   aspect-ratio: 1;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
-.ref_image > img {
-  max-width: 240px;
-  max-height: 240px;
+.ref-image > img {
+  width: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .logo {
