@@ -801,7 +801,7 @@ cta
   background-color: #03a9f4;
   padding-top: 120px;
 }
-.page-title h1 {
+.page-title h3 {
   color: #fff;
   margin: 0px;
   font-weight: 300;
@@ -821,15 +821,8 @@ cta
 }
 .gallery {
   margin-bottom: 100px;
-  margin-right: auto;
+  margin-right: 20px;
   margin-left: auto;
-}
-.references {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  padding-left: 10%;
-  padding-right: 10%;
-  grid-column-gap: 50px;
 }
 .maxwidth {
   max-width: 240px;
