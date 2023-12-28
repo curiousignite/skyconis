@@ -820,7 +820,6 @@ cta
   color: #03a9f4;
 }
 .gallery {
-  margin-bottom: 100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -830,22 +829,26 @@ cta
   padding-left: 10%;
   padding-right: 10%;
   grid-column-gap: 50px;
+  grid-row-gap: 100px;
 }
-.maxwidth {
-  max-width: 240px;
-}
-.maxheight {
-  max-height: 240px;
+.filter-container {
+  text-align: center;
 }
 .ref_image {
   text-align: center;
   box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.09);
   width: 250px;
   height: 250px;
+  aspect-ratio: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.ref_image > img {
+  max-width: 240px;
+  max-height: 240px;
+}
+
 .logo {
   float: left;
   margin-right: 10px;
