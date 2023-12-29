@@ -937,6 +937,23 @@ input[type="radio"] {
   background-color: #555;
   width: 55px;
 }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+}
+
 .references {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
