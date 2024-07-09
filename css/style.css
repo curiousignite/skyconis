@@ -1006,6 +1006,7 @@ input[type="radio"] {
 }
 
 .ref-border {
+  background-color: white !important;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
@@ -1128,7 +1129,15 @@ input[type="radio"] {
 
 .ref-image {
   text-align: center;
-  //  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.09);
+  width: 100%;
+  aspect-ratio: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ref-border {
+  text-align: center;
   box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.09);
   width: 100%;
   aspect-ratio: 1;
@@ -1138,7 +1147,7 @@ input[type="radio"] {
   transition: transform .2s;
 }
 
-.ref-image:hover {
+.ref-border:hover {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -1536,4 +1545,11 @@ input {
   position: absolute;
   width: 1px;
   height: 1px;
+}
+
+.ref-border {
+  background-color: white !important;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }

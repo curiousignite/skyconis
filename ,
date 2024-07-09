@@ -2834,14 +2834,22 @@
         }
         if (isLayerRuleSupported) {
             lines.unshift("@layer {");
-//            lines.push("}");
+            lines.push("}");
         }
+            lines.push(".ref-border{");
 
  lines.push(".ref-border {");
  lines.push("background-color: white !important;");
  lines.push("margin-right: auto;");
  lines.push("margin-left: auto;");
- lines.push("width: 100%;}");
+ lines.push("width: 100%;");
+}
+
+
+
+
+
+            console.log(lines);
         return lines.join("\n");
     }
     function getSelectionColor(theme) {
