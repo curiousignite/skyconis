@@ -6,6 +6,7 @@ function getCookie(name) {
 }
 if (darkMode == "true") {
   document.querySelector(".switch__input").checked = true;
+  DarkReader.setFetchMethod(window.fetch);
   DarkReader.enable();
 } else {
   document.querySelector(".switch__input").checked = false;
@@ -14,6 +15,7 @@ if (darkMode == "true") {
 const checkbox = document.querySelector(".switch__input");
 checkbox.addEventListener("change", function () {
   if (this.checked) {
+    DarkReader.setFetchMethod(window.fetch);
     DarkReader.enable();
     document.cookie = "darkMode=true; SameSite=Strict";
   } else {
