@@ -43,4 +43,5 @@ ExpiresByType application/javascript "access plus 1 month"
 # Others
 ExpiresByType application/pdf "access plus 1 month"
 ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresDefault "access plus 2 days"
 </IfModule>

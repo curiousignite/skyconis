@@ -17,10 +17,10 @@ checkbox.addEventListener("change", function () {
   if (this.checked) {
     DarkReader.setFetchMethod(window.fetch);
     DarkReader.enable();
-    document.cookie = "darkMode=true; SameSite=Strict";
+    document.cookie = "darkMode=true;";
   } else {
     DarkReader.disable();
-    document.cookie = "darkMode=false SameSite=Strict";
+    document.cookie = "darkMode=false";
   }
 });
 
