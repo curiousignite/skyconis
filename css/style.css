@@ -37,6 +37,11 @@ i {
     -ms-transition: all 0.3s ease-in-out;
 }
 
+a:link,
+a:visited {
+    color: var(--blue);
+}
+
 p {
     font-weight: 300;
     font-size: 13px;
@@ -87,7 +92,6 @@ h6 {
 }
 
 .section-title h1 {
-    /* text-transform: uppercase; */
     font-weight: 300;
     margin: 0px;
     font-size: 40px;
@@ -171,10 +175,6 @@ h6 {
         color: #333;
     }
 
-    /* nav.before-color .navbar-nav>li>a:hover { */
-    /*     color: var(--black); */
-    /* } */
-
     nav.after-color .navbar-nav>li>a:hover {
         color: var(--blue);
     }
@@ -223,11 +223,7 @@ h6 {
     color: var(--blue);
 }
 
-#reference {
-    cursor: pointer;
-}
-
-.after-color #reference {
+.after-color #colored {
     color: var(--blue);
 }
 
@@ -361,7 +357,7 @@ SLIDER REVOLUTION CSS
 
 /********
 
-services icons css
+SERVICES ICONS CSS
 
 ********/
 .feature-icon-wrap {
@@ -507,7 +503,30 @@ TEAM CSS
     color: var(--blue);
 }
 
-/******fun facts*****/
+/************
+
+COMING SOON
+
+*************/
+
+
+.coming-soon {
+    margin-top: 2vh;
+    border-width: 0;
+    height: 60vh;
+    width: 700px;
+    justify-content: center;
+
+}
+
+
+
+
+/************
+
+FUN FACTS
+
+*************/
 .funfacts {
     background: url(../images/bg-2.jpg);
     background-position: 50% 0;
