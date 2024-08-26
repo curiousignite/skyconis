@@ -45,3 +45,5 @@ ExpiresByType application/pdf "access plus 1 month"
 ExpiresByType application/x-shockwave-flash "access plus 1 month"
 ExpiresDefault "access plus 2 days"
 </IfModule>
+
+Redirect 301 /products.html /coming_soon.html
