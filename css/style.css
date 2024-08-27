@@ -1199,6 +1199,8 @@ input[type="radio"] {
     float: left;
     margin-top: 0.25vh;
     max-width: 3.5em;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
 
 }
 
@@ -1276,6 +1278,16 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 450px) {
+    .card-image .card-img {
+        height: 230px;
+        width: 230px;
+        object-fit: cover;
+        min-width: 230px;
+        min-height: 230px;
+    }
+}
+
+@media screen and (max-height: 450px) {
     .card-image .card-img {
         height: 230px;
         width: 230px;
