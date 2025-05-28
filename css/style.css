@@ -809,6 +809,85 @@ FUN FACTS
     color: var(--blue);
 }
 
+ .news-image {
+    text-align: center;
+    width: 100%;
+    aspect-ratio: 1.7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom:5%;
+    object-fit: cover;
+    object-position: center 4%;
+}
+
+ .news-text {
+    display: inherit;
+    width: 100%;
+
+}
+ .news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 4fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-column-gap: 50px;
+
+}
+ .new{
+    display:grid;
+    grid-template-rows: 3fr 4fr 1fr;
+    grid-template-columns: auto;
+    padding: 2%;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 10px black;
+    aspect-ratio: 2/3;
+    height: 550px;
+}
+.news-content  {
+    font-size: 20px;
+}
+.news-title{
+    padding-top: 10%;
+}
+.more-info{
+}
+
+
+@media screen and (max-width: 900px) {
+    .news-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-column-gap: 50px;
+        grid-row-gap: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .news-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-column-gap: 50px;
+        grid-row-gap: 100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .news-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-column-gap: 50px;
+        grid-row-gap: 100px;
+    }
+}
 /****
 
 cta
@@ -955,10 +1034,10 @@ cta
     background-color: #fff;
 }
 
-.news-content p {
-    color: #999;
-    font-size: 14px;
-}
+/*.news-content  {*/
+/*    /*color: #999;*/*/
+/*    font-size: 20px;*/
+/*}*/
 
 .pager li>a,
 .pager li>span {
