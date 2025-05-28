@@ -830,16 +830,16 @@ FUN FACTS
  .news-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3fr 4fr 1fr;
     padding-left: 10%;
     padding-right: 10%;
     grid-column-gap: 50px;
+    grid-row-gap: 100px;
 
 }
  .new{
     display:grid;
     grid-template-rows: 3fr 4fr 1fr;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     padding: 2%;
     background-color: #e6e6e6;
     box-shadow: 2px 2px 10px black;
