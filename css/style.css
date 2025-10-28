@@ -814,19 +814,20 @@ FUN FACTS
 .news-image {
   text-align: center;
   width: 100%;
-  aspect-ratio: 1.7;
+  aspect-ratio: 1.7777777;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  padding-bottom: 5%;
   object-fit: cover;
-  object-position: center 4%;
-  border-radius: 20px;
+  /* margin: auto; */
+  /* padding-bottom: 5%; */
+  /* object-position: center 4%; */
+  border-radius: 20px 20px 0px 0px;
 }
 #news .swiper-slide {
   border-radius: 23px;
-  border: 3px solid #e6e6e6;
+  border: 2px solid #e6e6e6;
+  display: grid;
 }
 .news-text {
   display: inherit;
@@ -854,25 +855,37 @@ FUN FACTS
   height: 550px;
 }
 .news-content {
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 1em;
   padding-right: 1em;
   padding-left: 1em;
   text-align: center;
-
   height: 15em;
-
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
 .news-title {
-  padding-top: 5%;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: center;
+  font-weight: 700;
 }
+
 .more-info {
   position: fixed;
   bottom: 0px;
   padding: 1em;
+  width: max-content;
+}
+
+.date {
+  text-align: center;
+  padding: 1em;
+  margin: auto;
+  padding-bottom: 4em;
+  width: max-content;
 }
 
 @media screen and (max-width: 900px) {
@@ -1334,7 +1347,7 @@ input[type="radio"] {
 }
 
 .slide-content {
-  min-width: 330px;
+  min-width: 280px;
   margin: 0 40px;
   overflow: hidden;
 }
@@ -1477,7 +1490,8 @@ input[type="radio"] {
 
 @media screen and (max-width: 768px) {
   .slide-content {
-    margin: 0 10px;
+    margin: auto;
+    width: 80%;
   }
 }
 
