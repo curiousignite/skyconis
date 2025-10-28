@@ -830,7 +830,8 @@ FUN FACTS
   display: grid;
 }
 .news-text {
-  display: inherit;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
   width: 100%;
 }
 .news-container {
