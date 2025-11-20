@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
@@ -25,7 +25,7 @@
 
       gtag("config", "G-NGTR23LDJG");
     </script>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -62,7 +62,7 @@
       });
     </script>
 
-    <title>Skycon | Information Technology and Consultancy Services</title>
+    <title data-lang="title"></title>
 
     <!-- Bootstrap -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -150,16 +150,26 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right scroll-to">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="/products.html">Products</a></li>
-            <li><a href="/references.html">References</a></li>
+            <li class="active"><a href="#home" data-lang="home"></a></li>
+            <li><a href="#about" data-lang="about"></a></li>
+            <li><a href="#team" data-lang="team"></a></li>
+            <li><a href="#services" data-lang="services"></a></li>
+            <li><a href="#news" data-lang="news"></a></li>
+            <li><a href="#contact" data-lang="contact"></a></li>
+            <li><a href="/products.html" data-lang="products"></a></li>
+            <li><a href="/references.html" data-lang="references"></a></li>
 
             <div class="toggle-container">
+              <div class="lang-switch">
+                <input
+                  id="language-toggle"
+                  class="check-toggle check-toggle-round-flat"
+                  type="checkbox"
+                />
+                <label for="language-toggle"></label>
+                <span class="en">EN</span>
+                <span class="tr">TR</span>
+              </div>
               <!-- partial:index.partial.html -->
               <svg display="none">
                 <symbol id="light" viewBox="0 0 24 24">
@@ -314,9 +324,8 @@
               data-speed="500"
               data-start="1200"
               data-easing="Power4.easeInOut"
-            >
-              Welcome to <span>Skycon</span>
-            </div>
+              data-lang="welcome"
+            ></div>
             <!-- /tp-caption -->
             <!-- LAYER NR. 2 -->
             <div
@@ -328,10 +337,8 @@
               data-start="1800"
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
-            >
-              We will give you the best business solutions and optimize your
-              system or your SAP projects.
-            </div>
+              data-lang="welcome_sub"
+            ></div>
             <!-- /tp-caption -->
 
             <!-- LAYER NR. 3 -->
@@ -345,7 +352,7 @@
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
             >
-              <a class="btn btn-white" href="#about">See more</a>
+              <a class="btn btn-white" href="#about" data-lang="see_more"></a>
             </div>
             <!-- /tp-caption -->
           </li>
@@ -374,9 +381,8 @@
               data-speed="500"
               data-start="1200"
               data-easing="Power4.easeInOut"
-            >
-              Welcome to <span>Skycon</span>
-            </div>
+              data-lang="welcome"
+            ></div>
             <!-- /tp-caption -->
 
             <!-- LAYER NR. 2 -->
@@ -389,10 +395,8 @@
               data-start="1800"
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
-            >
-              We will give you the best business solutions and optimize your
-              system or your SAP projects.
-            </div>
+              data-lang="welcome_sub"
+            ></div>
             <!-- /tp-caption -->
 
             <!-- LAYER NR. 3 -->
@@ -406,7 +410,7 @@
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
             >
-              <a class="btn btn-white" href="#about">See more</a>
+              <a class="btn btn-white" href="#about" data-lang="see_more"></a>
             </div>
             <!-- /tp-caption -->
           </li>
@@ -421,13 +425,9 @@
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 text-center">
             <div class="section-title">
-              <h1>About <span class="colored-text">Us</span></h1>
+              <h1 data-lang="about_us-colored"></h1>
               <span class="border-line"></span>
-              <p class="lead subtitle-caption">
-                Making processes <span class="colored-text">smarter</span>,
-                businesses
-                <span class="colored-text">stronger</span>
-              </p>
+              <p class="lead subtitle-caption" data-lang="about_us-sub"></p>
             </div>
           </div>
         </div>
@@ -441,12 +441,8 @@
                 <ion-icon name="bulb-outline" class="back-icon"></ion-icon>
               </div>
               <div class="features-text-right">
-                <h3>Process Consulting</h3>
-                <p>
-                  At Skycon, we are not just IT experts, we are also business
-                  experts. Although SAP ERP solutions are seems as IT
-                  implementations, they are so much more than that.
-                </p>
+                <h3 data-lang="process_consulting"></h3>
+                <p data-lang="process_consulting-sub"></p>
               </div>
             </div>
             <!--features icon wrap-->
@@ -459,13 +455,8 @@
                 <ion-icon name="cog-outline" class="back-icon"></ion-icon>
               </div>
               <div class="features-text-right">
-                <h3>End to End SAP implementation</h3>
-                <p>
-                  According to Gartner, 75% of all ERP projects fail. Whether
-                  your organization is new to Enterprise Resource Management
-                  (ERP) or you're a seasoned user of SAP Technologies, our team
-                  is ready to be your full service partner.
-                </p>
+                <h3 data-lang="end_to_end"></h3>
+                <p data-lang="end_to_end-sub"></p>
               </div>
             </div>
             <!--features icon wrap-->
@@ -487,13 +478,8 @@
                 ></ion-icon>
               </div>
               <div class="features-text-right">
-                <h3>Project Management</h3>
-                <p>
-                  Project Methodologies are implementation and development
-                  guidelines for ERP and non-ERP Projects. SAP have its own
-                  methodologies including ASAP, SAP Activate, Scrum and Agile
-                  development.
-                </p>
+                <h3 data-lang="project_management"></h3>
+                <p data-lang="project_management-sub"></p>
               </div>
             </div>
             <!--features icon wrap-->
@@ -506,12 +492,8 @@
                 <ion-icon name="link-outline" class="back-icon"></ion-icon>
               </div>
               <div class="features-text-right">
-                <h3>Supply Chain Management</h3>
-                <p>
-                  Supply Chain Management is the process of managing and
-                  streamlining the entire flow of materials and activities for
-                  an organization, from the supplier side to the customer side.
-                </p>
+                <h3 data-lang="scm"></h3>
+                <p data-lang="scm-sub"></p>
               </div>
             </div>
             <!--features icon wrap-->
@@ -530,7 +512,7 @@
           <div class="col-sm-3 margin-bottom30 text-center">
             <div class="fact-box">
               <h2>90</h2>
-              <h5>Happy Clients</h5>
+              <h5 data-lang="happy_clients"></h5>
               <span class="border-line"></span>
             </div>
           </div>
@@ -538,7 +520,7 @@
           <div class="col-sm-3 margin-bottom30 text-center">
             <div class="fact-box">
               <h2>116</h2>
-              <h5>Finished Projects</h5>
+              <h5 data-lang="finished_projects"></h5>
               <span class="border-line"></span>
             </div>
           </div>
@@ -546,7 +528,7 @@
           <div class="col-sm-3 margin-bottom30 text-center">
             <div class="fact-box">
               <h2>25</h2>
-              <h5>Countries</h5>
+              <h5 data-lang="countries"></h5>
               <span class="border-line"></span>
             </div>
           </div>
@@ -554,7 +536,7 @@
           <div class="col-sm-3 margin-bottom30 text-center">
             <div class="fact-box">
               <h2>30+</h2>
-              <h5>Consultants</h5>
+              <h5 data-lang="consultants"></h5>
               <span class="border-line"></span>
             </div>
           </div>
@@ -568,12 +550,9 @@
         <div class="row2">
           <div class="col-sm-8 col-sm-offset-2">
             <div class="section-title text-center">
-              <h1>Skycon <span class="colored-text">Team</span></h1>
+              <h1 data-lang="team-colored"></h1>
               <span class="border-line"></span>
-              <p class="lead subtitle-caption">
-                Where <span class="colored-text">expertise </span> meets
-                <span class="colored-text">collaboration </span>
-              </p>
+              <p class="lead subtitle-caption" data-lang="team-sub"></p>
             </div>
           </div>
         </div>
@@ -603,7 +582,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Deniz GÜNEŞ</h2>
-                  <p class="description">Founder</p>
+                  <p class="description" data-lang="founder"></p>
                 </div>
               </div>
               <!------------->
@@ -628,7 +607,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Emre BEREKETLİ</h2>
-                  <p class="description">Associate Partner - SAP Solutions</p>
+                  <p class="description" data-lang="associate"></p>
                 </div>
               </div>
               <!------------->
@@ -653,9 +632,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Egemen KAYALAR</h2>
-                  <p class="description">
-                    Director of SAP Solutions & Strategy
-                  </p>
+                  <p class="description" data-lang="director"></p>
                 </div>
               </div>
               <!------------->
@@ -681,9 +658,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Ege GÜNEŞ</h2>
-                  <p class="description">
-                    Director of SAP Development Services
-                  </p>
+                  <p class="description" data-lang="director-dev"></p>
                 </div>
               </div>
               <!------------->
@@ -708,7 +683,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Dilşah RAZBONYALI</h2>
-                  <p class="description">Finance & Accounting Manager</p>
+                  <p class="description" data-lang="finance"></p>
                 </div>
               </div>
               <!------------->
@@ -733,9 +708,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Emrecan KOÇ</h2>
-                  <p class="description">
-                    Principal Consultant - SAP Logistics
-                  </p>
+                  <p class="description" data-lang="principal-logistics"></p>
                 </div>
               </div>
               <!------------->
@@ -760,7 +733,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Yankı OĞUZ</h2>
-                  <p class="description">SAP ABAP/Fiori Developer</p>
+                  <p class="description" data-lang="developer"></p>
                 </div>
               </div>
               <!------------->
@@ -785,7 +758,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Kaan ÇELİKOĞLU</h2>
-                  <p class="description">SAP MM/SRM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-srm"></p>
                 </div>
               </div>
               <!------------->
@@ -810,7 +783,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Yiğitcan GÜNEŞ</h2>
-                  <p class="description">SAP MM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-srm"></p>
                 </div>
               </div>
               <!------------->
@@ -835,7 +808,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Emel YAZICI</h2>
-                  <p class="description">SAP MM/WM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-wm"></p>
                 </div>
               </div>
               <!------------->
@@ -860,7 +833,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Elif GÖZÜDELİ</h2>
-                  <p class="description">SAP MM/SD Consultant</p>
+                  <p class="description" data-lang="consultant-mm-sd"></p>
                 </div>
               </div>
               <!------------->
@@ -885,7 +858,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Berke ERBAĞCI</h2>
-                  <p class="description">SAP ABAP/Fiori Developer</p>
+                  <p class="description" data-lang="developer"></p>
                 </div>
               </div>
               <!------------->
@@ -910,7 +883,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Görkem KEÇECİ</h2>
-                  <p class="description">SAP ABAP/Fiori Developer</p>
+                  <p class="description" data-lang="developer"></p>
                 </div>
               </div>
               <!------------->
@@ -935,7 +908,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Serhan KARPUZ</h2>
-                  <p class="description">SAP MM Consultant</p>
+                  <p class="description" data-lang="consultant-mm"></p>
                 </div>
               </div>
               <!------------->
@@ -960,7 +933,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Işıl SAYGIN</h2>
-                  <p class="description">SAP MM Consultant</p>
+                  <p class="description" data-lang="consultant-mm"></p>
                 </div>
               </div>
               <!------------->
@@ -985,7 +958,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Sadık SAĞLAM</h2>
-                  <p class="description">SAP MM/SRM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-srm"></p>
                 </div>
               </div>
               <!------------->
@@ -1010,7 +983,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Senanur ÇELİK</h2>
-                  <p class="description">SAP MM/SRM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-srm"></p>
                 </div>
               </div>
               <!------------->
@@ -1035,7 +1008,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Göktuğ ÖZTÜRK</h2>
-                  <p class="description">SAP MM Consultant</p>
+                  <p class="description" data-lang="consultant-mm"></p>
                 </div>
               </div>
               <!------------->
@@ -1060,7 +1033,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Senat ALBAYRAK</h2>
-                  <p class="description">SAP MM/SRM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-srm"></p>
                 </div>
               </div>
               <!------------->
@@ -1085,7 +1058,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Emre ÖZCANAN</h2>
-                  <p class="description">SAP MM/WM Consultant</p>
+                  <p class="description" data-lang="consultant-mm-srm"></p>
                 </div>
               </div>
               <!------------->
@@ -1110,7 +1083,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Atalay Salih ÇETİN</h2>
-                  <p class="description">SAP MM/MDG Consultant</p>
+                  <p class="description" data-lang="consultant-mm-mdg"></p>
                 </div>
               </div>
               <!------------->
@@ -1135,7 +1108,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Rüştü Can SEVER</h2>
-                  <p class="description">SAP ABAP/Fiori Developer</p>
+                  <p class="description" data-lang="developer"></p>
                 </div>
               </div>
               <!------------->
@@ -1160,7 +1133,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Barış YARGU</h2>
-                  <p class="description">SAP ABAP/Fiori Developer</p>
+                  <p class="description" data-lang="developer"></p>
                 </div>
               </div>
               <!------------->
@@ -1185,7 +1158,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Naz ÖZTÜRK</h2>
-                  <p class="description">SAP MM/MDG Consultant</p>
+                  <p class="description" data-lang="consultant-mm-mdg"></p>
                 </div>
               </div>
               <!------------->
@@ -1210,7 +1183,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Enise VEYSEL</h2>
-                  <p class="description">SAP SD/aATP Consultant</p>
+                  <p class="description" data-lang="consultant-sd-aatp"></p>
                 </div>
               </div>
               <!------------->
@@ -1235,7 +1208,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Ekin COŞKUN</h2>
-                  <p class="description">SAP SD Consultant</p>
+                  <p class="description" data-lang="consultant-sd"></p>
                 </div>
               </div>
               <!------------->
@@ -1260,7 +1233,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Efecan TOPALOĞLU</h2>
-                  <p class="description">SAP SD Consultant</p>
+                  <p class="description" data-lang="consultant-sd"></p>
                 </div>
               </div>
               <!------------->
@@ -1283,7 +1256,7 @@
                 </div>
                 <div class="card-content">
                   <h2 class="name">Nina</h2>
-                  <p class="description">Cat Food Expert</p>
+                  <p class="description" data-lang="cat"></p>
                 </div>
               </div>
               <!------------->
@@ -1301,11 +1274,9 @@
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 text-center">
             <div class="section-title">
-              <h1>Our <span class="colored-text">Services</span></h1>
+              <h1 data-lang="services-colored"></h1>
               <span class="border-line"></span>
-              <p class="lead subtitle-caption">
-                Why you choose <span class="colored-text">Skycon</span>
-              </p>
+              <p class="lead subtitle-caption" data-lang="services-sub"></p>
             </div>
           </div>
         </div>
@@ -1318,14 +1289,8 @@
               </div>
               <ion-icon name="people-outline" class="back-icon"></ion-icon>
               <div class="features-text-right">
-                <h3>Supplier Relationship Management</h3>
-                <p>
-                  SAP Supplier Relationship Management (SRM) is the discipline
-                  of strategically planning for, and managing, all interactions
-                  with third party organizations that supply goods and/or
-                  services to an organization to maximize the value of those
-                  interactions.
-                </p>
+                <h3 data-lang="srm"></h3>
+                <p data-lang="srm-sub"></p>
               </div>
             </div>
           </div>
@@ -1337,14 +1302,8 @@
               </div>
               <ion-icon name="browsers-outline" class="back-icon"></ion-icon>
               <div class="features-text-right">
-                <h3>Materials Management</h3>
-                <p>
-                  SAP Materials Management (MM) is a module of the SAP ERP
-                  software that is used for Procurement Handling and Inventory
-                  Management. SAP Materials management covers all tasks within
-                  the supply chain, including consumption-based planning,
-                  planning, vendor evaluation and invoice verification.
-                </p>
+                <h3 data-lang="mm"></h3>
+                <p data-lang="mm-sub"></p>
               </div>
             </div>
           </div>
@@ -1362,15 +1321,8 @@
               </div>
               <ion-icon name="documents-outline" class="back-icon"></ion-icon>
               <div class="features-text-right">
-                <h3>Contract Life-Cycle Management</h3>
-                <p>
-                  SAP Sourcing CLM is a platform that authorizes and
-                  standardizes the source-to-contract processes. It simplifies
-                  sourcing and procurement processes, facilitates compliance
-                  with negotiated terms, streamlines processes for greater
-                  efficiency, and increases the competitive advantage of its
-                  users.
-                </p>
+                <h3 data-lang="clm"></h3>
+                <p data-lang="clm-sub"></p>
               </div>
             </div>
           </div>
@@ -1382,17 +1334,8 @@
               </div>
               <ion-icon name="cube-outline" class="back-icon"></ion-icon>
               <div class="features-text-right">
-                <h3>Master Data Governance (MDG)</h3>
-                <p>
-                  Master Data Governance is a strategic approach which enables
-                  organizations to gain overall consistency of their master data
-                  that is spread across a diversified system landscape. MDM
-                  provides one central view and trusted knowledge about this
-                  data. This knowledge allows you to streamline business
-                  executions and analytical processes in the enterprise. MDG
-                  allows you to solve a multitude of business pains associated
-                  with inconsistent master data.
-                </p>
+                <h3 data-lang="mdg"></h3>
+                <p data-lang="mdg-sub"></p>
               </div>
             </div>
           </div>
@@ -1408,14 +1351,8 @@
               <ion-icon name="crop-outline" class="back-icon"></ion-icon>
               <ion-icon name="crop-outline" class="back-icon"></ion-icon>
               <div class="features-text-right">
-                <h3>Warehouse Management</h3>
-                <p>
-                  The SAP Warehouse Management system (WMS) provides flexible,
-                  automated support in processing all goods movements and in
-                  managing stocks in your warehouse complex. The system supports
-                  scheduled and efficient processing of all logistics processes
-                  within your warehouse.
-                </p>
+                <h3 data-lang="wm"></h3>
+                <p data-lang="wm-sub"></p>
               </div>
             </div>
           </div>
@@ -1427,18 +1364,8 @@
               </div>
               <ion-icon name="earth-outline" class="back-icon"></ion-icon>
               <div class="features-text-right">
-                <h3>E-Sourcing</h3>
-                <p>
-                  E-Sourcing is a software from SKYCON that reduces the costs of
-                  procurement cycles by improving the exchange of business
-                  documents and shortening the time it takes to process the
-                  content of these documents. While purchasers use familiar
-                  methods to order goods and services, E-Sourcing integrates
-                  suppliers into the procurement process to a much larger
-                  extent. Supplier Collaboration is a strategic approach used by
-                  companies to increase efficiency, reduce costs, and improve
-                  services.
-                </p>
+                <h3 data-lang="e_sourcing"></h3>
+                <p data-lang="e_sourcing-sub"></p>
               </div>
             </div>
           </div>
@@ -1453,14 +1380,10 @@
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2">
             <div class="section-title text-center">
-              <h1>
-                <span class="alo">Skycon</span>
-                <span class="colored-text">News</span>
+              <h1 data-lang="news-colored">
               </h1>
               <span class="border-line"></span>
-              <p class="lead subtitle-caption">
-                <span class="colored-text">Stories </span>
-                that shape our journey
+              <p class="lead subtitle-caption" data-lang="news-sub">
               </p>
             </div>
           </div>
@@ -1471,55 +1394,83 @@
           <div class="card-wrapper swiper-wrapper" style="border-radius:20px;">
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="images/clm.png"> </img>
+              <img class="news-image" src="/images/vendor_portal.png" style="object-position: bottom;"> </img>
               <div class="news-text">
-                  <h3 class="news-title">Skycon ile Sözleşme Yönetiminde (CLM) Yeni Dönem</h3>
-                  <p class="news-content">TANAP (Trans Anadolu Doğal Gaz Boru Hattı Projesi), dijital dönüşüm vizyonu doğrultusunda sözleşme süreçlerini uçtan uca yönetmek amacıyla Skycon CLM (Contract Lifecycle Management) çözümünü devreye aldı.</p>
+                  <h3 class="news-title" data-lang="tanap-vp"></h3>
+                  <p class="news-content" data-lang="tanap-vp-sub"></p>
               </div>
-              <p class="date">June 2025</p>
-              <a href="coming_soon.html" class="more-info">More information</a>
+              <p class="date" data-lang="april-2023"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="images/inci_2.png"> </img>
+              <img class="news-image" src="/images/sisecam.png" style="object-position: bottom;"> </img>
               <div class="news-text">
-                  <h3 class="news-title">İnci Akü Run for S/4 Projesi Canlı’da!</h3>
-                  <p class="news-content">İnci GS Yuasa, SAP R/3 sisteminden SAP S/4HANA’ya geçiş projesini başarıyla tamamladı. Proje, NTT Data Türkiye liderliğinde yürütülürken, Skycon olarak MM (Malzeme Yönetimi) modülünün liderliğini üstlendik.</p>
+                  <h3 class="news-title" data-lang="sisecam"></h3>
+                  <p class="news-content" data-lang="sisecam-sub"></p>
               </div>
-              <p class="date">April 2025</p>
-              <a href="coming_soon.html" class="more-info">More information</a>
+              <p class="date" data-lang="april-2024"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="images/tanap_wm.png"> </img>
+              <img class="news-image" src="/images/izmakpar.png" style="object-position: bottom;"> </img>
               <div class="news-text">
-                  <h3 class="news-title">TANAP’ın Depo Operasyonlarında SAP WM Dönemi Başladı</h3>
-                  <p class="news-content">TANAP (Trans Anadolu Doğal Gaz Boru Hattı Projesi), Türkiye’nin en büyük enerji altyapı projelerinden biri olarak operasyonel süreçlerinde dijital dönüşüm adımlarını hızlandırıyor.
-                  </p>
+                  <h3 class="news-title" data-lang="izmakpar"></h3>
+                  <p class="news-content" data-lang="izmakpar-sub"></p>
               </div>
-              <p class="date">February 2025</p>
-              <a href="coming_soon.html" class="more-info">More information</a>
-            </div>
+              <p class="date" data-lang="december-2024"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
+          </div>
+            <!------------->
+            <div class="card swiper-slide">
+              <img class="news-image" src="/images/KFG.png" style="object-position: bottom;"> </img>
+              <div class="news-text">
+                  <h3 class="news-title" data-lang="kfg"></h3>
+                  <p class="news-content" data-lang="kfg-sub"></p>
+              </div>
+              <p class="date" data-lang="december-2024"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
+          </div>
             <!------------->
             <div class="card swiper-slide">
               <img class="news-image" src="/images/club.png"> </img>
               <div class="news-text">
-                  <h3 class="news-title">Büyük Kulüp’ün Dijital Dönüşümü</h3>
-                  <p class="news-content">Köklü geçmişiyle İstanbul’un en prestijli kulüplerinden Büyük Kulüp, dijital dönüşüm yolculuğuna Skycon ile devam ediyor.
-Yeni rezervasyon sistemi, tedarikçi portalı entegrasyonu ve modern web sitesi tasarımı projeleriyle kulüp üyelerine daha hızlı, erişilebilir ve kullanıcı dostu bir dijital deneyim sunacak.</p>
+                  <h3 class="news-title" data-lang="buyuk-s4"></h3>
+                  <p class="news-content" data-lang="buyuk-s4-sub"></p>
               </div>
-              <p class="date">January 2025</p>
-              <a href="coming_soon.html" class="more-info">More information</a>
+              <p class="date" data-lang="jan-2025"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="images/vendor_portal.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/tanap_wm.png"> </img>
               <div class="news-text">
-                  <h3 class="news-title">TANAP Vendor Portal Projesi Canlı’da!</h3>
-                  <p class="news-content">TANAP, tedarik zinciri süreçlerini dijitalleştirmek amacıyla Skycon’un kendi ürünü olan Vendor Portal çözümünü devreye aldı. Bu proje kapsamında, teklif toplama, sipariş yaratma ve tedarikçi yönetimi süreçleri uçtan uca dijital hale getirildi.</p>
+                  <h3 class="news-title" data-lang="tanap-wm"></h3>
+                  <p class="news-content" data-lang="tanap-wm-sub"></p>
               </div>
-              <p class="date">August 2023</p>
-              <a href="coming_soon.html" class="more-info">More information</a>
+              <p class="date" data-lang="feb-2025"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
+            </div>
+            <!------------->
+            <div class="card swiper-slide">
+              <img class="news-image" src="/images/inci_2.png"> </img>
+              <div class="news-text">
+                  <h3 class="news-title" data-lang="inci-s4"></h3>
+                  <p class="news-content" data-lang="inci-s4-sub"></p>
+              </div>
+              <p class="date" data-lang="april-2025"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
+          </div>
+            <!------------->
+            <div class="card swiper-slide">
+              <img class="news-image" src="/images/clm.png"> </img>
+              <div class="news-text">
+                  <h3 class="news-title" data-lang="tanap-clm"></h3>
+                  <p class="news-content" data-lang="tanap-clm-sub"></p>
+              </div>
+              <p class="date" data-lang="june-2025"></p>
+              <a href="coming_soon.html" class="more-info" data-lang="more_info"></a>
           </div>
             <!------------->
           </div>
@@ -1640,8 +1591,3 @@ Yeni rezervasyon sistemi, tedarikçi portalı entegrasyonu ve modern web sitesi 
     ></script>
   </body>
 </html>
-
-
-
-
-

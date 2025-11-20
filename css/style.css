@@ -814,7 +814,7 @@ FUN FACTS
 .news-image {
   text-align: center;
   width: 100%;
-  aspect-ratio: 1.7777777;
+  /* aspect-ratio: 1.7777777; */
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -831,7 +831,7 @@ FUN FACTS
 }
 .news-text {
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 2fr 5fr;
   width: 100%;
 }
 .news-container {
@@ -1541,6 +1541,7 @@ input {
 
 .switch,
 .switch__input {
+  cursor: pointer;
   border: 0;
   box-sizing: border-box;
   margin: 0 !important;
@@ -1750,4 +1751,92 @@ input {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+}
+.lang-switch {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.lang-switch > span {
+  position: absolute;
+  top: 25%;
+  pointer-events: none;
+  font-weight: bold;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  width: 50%;
+  text-align: center;
+}
+
+input.check-toggle-round-flat:checked ~ .tr {
+  color: #fff;
+}
+
+input.check-toggle-round-flat:checked ~ .en {
+  color: #0d4ef2;
+}
+
+.lang-switch > span.en {
+  left: 0;
+  padding-left: 0.4em;
+  color: #fff;
+}
+
+.lang-switch > span.tr {
+  right: 2px;
+  padding-right: 0.4em;
+  color: #0d4ef2;
+}
+
+.check-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.check-toggle + label {
+  box-shadow:
+    0 0 0 0.0625em hsla(var(--hue), 90%, 50%, 0),
+    0 0.125em 0.5em hsla(var(--hue), 10%, 10%, 0.1);
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.check-toggle-round-flat + label {
+  /* padding: 2px; */
+  width: 2.75em;
+  height: 1.5em;
+  background-color: #fff;
+  /* background-color: rgb(19, 21, 22); */
+  border-radius: 0.75em;
+}
+input.check-toggle-round-flat + label:before,
+input.check-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+input.check-toggle-round-flat + label:after {
+  top: 4px;
+  left: 10%;
+  bottom: 4px;
+  width: 1em;
+  height: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #0d4ef2;
+  border-radius: 50%;
+  transition: margin 0.2s;
+}
+
+input.check-toggle-round-flat:checked + label:after {
+  margin-left: 22px;
 }

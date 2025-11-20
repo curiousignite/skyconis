@@ -65,7 +65,7 @@
         color: var(--black);
       }
     </style>
-    <title>References</title>
+    <title data-lang="references"></title>
     <!-- Loading Header&Footer -->
     <script src="//code.jquery.com/jquery-3.6.3.js"></script>
     <script>
@@ -136,33 +136,39 @@
             <span class="icon-bar"></span>
           </button>
           <a href="index.html#home">
-            <img
-              class="logo"
-              src="/images/SkyConisLogo.png"
-              style="max-width: 50px; margin-top: 5px"
-              alt="skycon_logo"
+            <img class="logo" src="/images/SkyConisLogo.png" alt="skycon_logo"
           /></a>
-          <a class="navbar-brand alo" href="index.html">Skycon</a>
+          <a class="navbar-brand alo" href="index.html#home">Skycon</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right scroll-to">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#news">News</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-            <li><a href="products.html">Products</a></li>
+            <li><a href="index.html#home" data-lang="home"></a></li>
+            <li><a href="index.html#about" data-lang="about"></a></li>
+            <li><a href="index.html#team" data-lang="team"></a></li>
+            <li><a href="index.html#services" data-lang="services"></a></li>
+            <li><a href="index.html#news" data-lang="news"></a></li>
+            <li><a href="index.html#contact" data-lang="contact"></a></li>
+            <li><a href="/products.html" data-lang="products"></a></li>
             <li>
               <a
                 id="colored"
                 onClick="javascript:topFunction()"
                 style="cursor: pointer"
-                >References</a
-              >
+                data-lang="references"
+              ></a>
             </li>
 
             <div class="toggle-container">
+              <div class="lang-switch">
+                <input
+                  id="language-toggle"
+                  class="check-toggle check-toggle-round-flat"
+                  type="checkbox"
+                />
+                <label for="language-toggle"></label>
+                <span class="en">EN</span>
+                <span class="tr">TR</span>
+              </div>
               <!-- partial:index.partial.html -->
               <svg display="none">
                 <symbol id="light" viewBox="0 0 24 24">
@@ -292,7 +298,7 @@
 
     <div class="page-title">
       <div class="container text-center">
-        <h1>References</h1>
+        <h1 data-lang="references"></h1>
         <br />
       </div>
     </div>
@@ -353,42 +359,49 @@
       />
       <ol class="filters">
         <li>
-          <label for="All">All</label>
+          <label for="All" data-lang="all"></label>
         </li>
         <li>
-          <label for="ConsumerGoods">Consumer Goods</label>
+          <label for="ConsumerGoods" data-lang="consumergoods"></label>
         </li>
         <li>
-          <label for="Utilities">Utilities</label>
+          <label for="Utilities" data-lang="utilities"></label>
         </li>
         <li>
-          <label for="MillProducts">Mill Products</label>
+          <label for="MillProducts" data-lang="millproducts"></label>
         </li>
         <li>
-          <label for="TravelTransportation">Travel & Transportation</label>
+          <label
+            for="TravelTransportation"
+            data-lang="traveltransportation"
+          ></label>
         </li>
         <li>
-          <label for="EngineeringConstruction"
-            >Engineering & Construction</label
-          >
+          <label
+            for="EngineeringConstruction"
+            data-lang="engineeringconstruction"
+          ></label>
         </li>
         <li>
-          <label for="Media">Media</label>
+          <label for="Media" data-lang="media"></label>
         </li>
         <li>
-          <label for="Pharmaceuticals">Pharmaceuticals</label>
+          <label for="Pharmaceuticals" data-lang="pharmaceuticals"></label>
         </li>
         <li>
-          <label for="Automotive">Automotive</label>
+          <label for="Automotive" data-lang="automotive"></label>
         </li>
         <li>
-          <label for="Retail">Retail</label>
+          <label for="Retail" data-lang="retail"></label>
         </li>
         <li>
-          <label for="ProfessionalService">Professional Service</label>
+          <label
+            for="ProfessionalService"
+            data-lang="professionalservice"
+          ></label>
         </li>
         <li>
-          <label for="Collabrations">Collabrations</label>
+          <label for="Collabrations" data-lang="collabrations"></label>
         </li>
       </ol>
       <section class="references">
