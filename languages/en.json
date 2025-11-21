@@ -70,7 +70,8 @@
   "retail": "Retail",
   "professionalservice": "Professional Service",
   "collabrations": "Collabrations",
-  "coming_soon": "Coming <span class=\"colored-text\">Soon</span> <br /><br /> <br /><br />",
+  "coming_soon": "Coming Soon",
+  "coming_soon-colored": "Coming <span class=\"colored-text\">Soon</span> <br /><br /> <br /><br />",
   "follow_us": "Follow us on <a href=\"https://www.linkedin.com/company/skyconis/\">Linkedin</a> for update now!",
   "tanap-clm": "Sözleşme Yönetiminde Yeni Dönem",
   "tanap-clm-sub": "TANAP (Trans Anadolu Doğal Gaz Boru Hattı Projesi), dijital dönüşüm vizyonu doğrultusunda sözleşme süreçlerini uçtan uca yönetmek amacıyla Skycon CLM (Contract Lifecycle Management) çözümünü devreye aldı.",
@@ -95,6 +96,5 @@
   "kfg-sub": "Kuveyt’in perakende ve restoran zinciri operatörlerinden Kout Food Group, NTT liderliğinde yürütülen SAP dönüşüm projesini başarıyla canlıya aldı. Bu dönüşümde Skycon olarak Master Data Governance (MDG) ekibinde yer almaktan ve global ölçekte bir veri yönetimi altyapısının kurulmasına katkı sağlamaktan gurur duyuyoruz.",
   "sisecam": "Şişecam SAP S/4HANA Conversion Projesi",
   "sisecam-sub": "NTT Data liderliğinde yürütülen SAP S/4HANA Conversion Projesi kapsamında MM ekibi içinde aktif rol aldık. Bu proje Türkiye, İtalya, Gürcistan, Hindistan, Romanya ve Slovakya lokasyonlarını kapsayacak şekilde gerçekleştirildi. Skycon ekibi olarak, bu büyük dönüşüm yolculuğunda yer almaktan memnuniyet duyuyoruz.",
-  "april-2024": "April 2024",
-  "coming_soon": "Coming Soon"
+  "april-2024": "April 2024"
 }
