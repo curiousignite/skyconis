@@ -73,7 +73,7 @@
   "coming_soon": "Yakında",
   "coming_soon-colored": "<span class=\"colored-text\">Yakında</span> <br /><br /> <br /><br />",
   "follow_us": "Bizi <a href=\"https://www.linkedin.com/company/skyconis/\">Linkedin</a> üzerinden takip edin!",
-  "tanap-clm": "Sözleşme Yönetiminde Yeni Dönem",
+  "tanap-clm": "Sözleşme Yönetimi'nde Yeni Dönem",
   "tanap-clm-sub": "TANAP (Trans Anadolu Doğal Gaz Boru Hattı Projesi), dijital dönüşüm vizyonu doğrultusunda sözleşme süreçlerini uçtan uca yönetmek amacıyla Skycon CLM (Contract Lifecycle Management) çözümünü devreye aldı.",
   "june-2025": "June 2025",
   "more_info": "More information",
@@ -92,9 +92,12 @@
   "izmakpar": "İzmakpar - S/4Hana Projesi Canlı'da!",
   "izmakpar-sub": "NTT Data liderliğinde yürütülen İzmakpar SAP S/4HANA Conversion Projesi başarıyla tamamlandı. 1997 yılından bu yana sac, kauçuk ve plastik kalıp imalatı alanında faaliyet gösteren İzmakpar, bu proje ile S/4HANA platformuna modern bir dönüşüm gerçekleştirdi. Skycon olarak MM ekibi kapsamında görev alarak bu dönüşüme katkı sağladık.",
   "december-2024": "December 2024",
-  "kfg": "Kout Food Group – SAP MDG Projesi Canlıda",
+  "kfg": "Kout Food Group – SAP MDG Projesi Canlı'da!",
   "kfg-sub": "Kuveyt’in perakende ve restoran zinciri operatörlerinden Kout Food Group, NTT liderliğinde yürütülen SAP dönüşüm projesini başarıyla canlıya aldı. Bu dönüşümde Skycon olarak Master Data Governance (MDG) ekibinde yer almaktan ve global ölçekte bir veri yönetimi altyapısının kurulmasına katkı sağlamaktan gurur duyuyoruz.",
   "sisecam": "Şişecam SAP S/4HANA Conversion Projesi",
   "sisecam-sub": "NTT Data liderliğinde yürütülen SAP S/4HANA Conversion Projesi kapsamında MM ekibi içinde aktif rol aldık. Bu proje Türkiye, İtalya, Gürcistan, Hindistan, Romanya ve Slovakya lokasyonlarını kapsayacak şekilde gerçekleştirildi. Skycon ekibi olarak, bu büyük dönüşüm yolculuğunda yer almaktan memnuniyet duyuyoruz.",
-  "april-2024": "April 2024"
+  "april-2024": "April 2024",
+  "new_office": "Skycon Yeni Ar-Ge Merkezi",
+  "new_office-sub": "Skycon ailesi büyüyor! Biruni Teknopark’taki yeni ofisimiz açıldı. Ar-Ge, yazılım ürünleri ve SAP projelerimiz için daha hızlı, daha yaratıcı ve daha etkili çözümler üretmek adına yeni ofisimizdeyiz.",
+  "may-2023": "May 2023"
 }
