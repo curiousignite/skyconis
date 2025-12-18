@@ -11,15 +11,25 @@
   --white: #fff;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background: white;
   font-family: "Quicksand", sans-serif;
-
   font-weight: 400;
   color: #505050;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   font-size: 14px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
 }
 
 /***basics****/
@@ -1018,7 +1028,6 @@ cta
 }
 
 .footer {
-  margin-top: 2 em;
   padding: 50px 0;
   background-color: var(--blue);
 }
