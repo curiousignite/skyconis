@@ -72,6 +72,8 @@
   "coming_soon": "Coming Soon",
   "coming_soon-colored": "Coming <span class=\"colored-text\">Soon</span> <br /><br /> <br /><br />",
   "follow_us": "Follow us on <a href=\"https://www.linkedin.com/company/skyconis/\">Linkedin</a> for update now!",
+  "arcelik-s4": "Arçelik S/4 Project Goes Live",
+  "arcelik-s4-sub": "Arçelik successfully completed its transition from SAP R/3 to SAP S/4HANA in line with its digital transformation vision. As Skycon, we led the implementation of Business Partner integration, activated the budget-controlled procurement structure within SRM, and migrated the end-to-end purchasing flow covering request, approval, and purchase order processes to the new system.",
   "dimes-mdg": "Dimes Has Gone Live!",
   "dimes-mdg-sub": "Dimes has successfully completed its SAP MDG transformation and is now live with MDG-M and MDG-BP. As Skycon Consulting, we led end-to-end design, workflows, rules/validations, integrations, and go-live activities.",
   "otokar-s4": "Otokar Has Gone Live!",
