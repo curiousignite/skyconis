@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 
 * {
@@ -278,8 +278,9 @@ BUTTONS
   transition: all 0.3s ease;
 }
 
-.btn:focus {
-  outline: 0;
+.btn:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
 }
 
 .btn-white {
@@ -341,6 +342,11 @@ SLIDER REVOLUTION CSS
   font-size: 70px;
   letter-spacing: 2px;
   font-family: "Quicksand", sans-serif;
+  border: none !important;
+}
+
+.slider-caption {
+  border: none !important;
 }
 
 .slider-title span {
@@ -822,27 +828,25 @@ FUN FACTS
 }
 
 .news-image {
-  text-align: center;
   width: 100%;
-  /* aspect-ratio: 1.7777777; */
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   object-fit: cover;
-  /* margin: auto; */
-  /* padding-bottom: 5%; */
-  /* object-position: center 4%; */
   border-radius: 20px 20px 0px 0px;
+  flex-shrink: 0;
 }
 #news .swiper-slide {
   border-radius: 23px;
   border: 2px solid #e6e6e6;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 .news-text {
-  display: grid;
-  grid-template-rows: 2fr 5fr;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   width: 100%;
+  overflow: hidden;
 }
 .news-container {
   display: grid;
@@ -871,10 +875,7 @@ FUN FACTS
   padding-right: 1em;
   padding-left: 1em;
   text-align: center;
-  height: 15em;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
+  flex: 1;
 }
 .news-title {
   padding-top: 1em;
@@ -882,6 +883,10 @@ FUN FACTS
   padding-left: 1em;
   text-align: center;
   font-weight: 700;
+  min-height: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .more-info {
@@ -894,10 +899,10 @@ FUN FACTS
 .date {
   text-align: center;
   padding: 1em;
-  margin: auto;
-  padding-bottom: 4em;
+  margin: 0 auto;
+  padding-bottom: 2em;
   width: max-content;
-  padding-top: 2em;
+  margin-top: auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -1365,6 +1370,13 @@ input[type="radio"] {
 
 .card {
   background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#news .swiper-wrapper {
+  align-items: stretch;
 }
 
 .image-content,
@@ -1511,6 +1523,23 @@ input[type="radio"] {
 }
 
 /* -----SLIDER-END----- */
+
+/* Fix parallax on mobile (iOS Safari doesn't support background-attachment: fixed) */
+@supports (-webkit-touch-callout: none) {
+  .funfacts,
+  .testimonials,
+  #contact {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .funfacts,
+  .testimonials,
+  #contact {
+    background-attachment: scroll;
+  }
+}
 
 /* -----Dark Mode Toggle-----*/
 

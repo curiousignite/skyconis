@@ -1,16 +1,6 @@
 <!doctype html>
-<html>
+<html lang="tr">
   <head>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-KJJNXLRV"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -28,6 +18,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Skycon - SAP danışmanlık, ERP çözümleri, tedarik zinciri yönetimi ve dijital dönüşüm hizmetleri sunan bilgi teknolojileri şirketi. SAP S/4HANA, MM, SD, MDG, SRM, CLM ve daha fazlası." />
+    <meta name="keywords" content="SAP, ERP, danışmanlık, dijital dönüşüm, S/4HANA, tedarik zinciri, Skycon, bilgi teknolojileri, SAP MM, SAP SD, SAP MDG, SAP SRM" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://skyconis.com/" />
+    <link rel="alternate" hreflang="tr" href="https://skyconis.com/" />
+    <link rel="alternate" hreflang="en" href="https://skyconis.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://skyconis.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skyconis.com/" />
+    <meta property="og:title" content="Skycon | Information Technologies And Consultancy Services" />
+    <meta property="og:description" content="SAP consulting, ERP solutions, supply chain management and digital transformation services. SAP S/4HANA, MM, SD, MDG, SRM, CLM and more." />
+    <meta property="og:image" content="https://skyconis.com/images/android-chrome-384x384.png" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Skycon | Information Technologies And Consultancy Services" />
+    <meta name="twitter:description" content="SAP consulting, ERP solutions, supply chain management and digital transformation services." />
+    <meta name="twitter:image" content="https://skyconis.com/images/android-chrome-384x384.png" />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -54,41 +69,64 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- Loading Footer -->
-    <script src="//code.jquery.com/jquery-3.6.3.js"></script>
-    <script>
-      $(function () {
-        $("#footer").load("/footer.html");
-      });
-    </script>
-
     <title>Skycon | Information Technologies And Consultancy Services</title>
 
-    <!-- Bootstrap -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="/css/flexslider.css" rel="stylesheet" type="text/css" />
-    <link
-      href="/icons/css/simple-line-icons.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Preconnect to external origins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload hero image (LCP element) -->
+    <link rel="preload" href="/images/bg-1.jpg" as="image" />
+
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <!--revolution slider setting css-->
+    <!-- Critical CSS (needed for first paint) -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/rs-plugin/css/settings.css" rel="stylesheet" />
+
+    <!-- Non-critical CSS (deferred) -->
+    <link rel="preload" href="/css/flexslider.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" href="/icons/css/simple-line-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" href="/css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link href="/css/flexslider.css" rel="stylesheet" type="text/css" />
+      <link href="/icons/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+      <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    </noscript>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Skycon",
+      "url": "https://skyconis.com",
+      "logo": "https://skyconis.com/images/android-chrome-384x384.png",
+      "description": "SAP consulting, ERP solutions, supply chain management and digital transformation services.",
+      "email": "info@skyconis.com",
+      "telephone": "+905332409149",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Zeytinburnu",
+        "addressRegion": "Istanbul",
+        "addressCountry": "TR"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/skyconis/"
+      ]
+    }
+    </script>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="80">
@@ -324,7 +362,7 @@
               data-start="1200"
               data-easing="Power4.easeInOut"
               data-lang="welcome"
-            ></div>
+            ><span>Skycon</span>'a Hoşgeldiniz</div>
             <!-- /tp-caption -->
             <!-- LAYER NR. 2 -->
             <div
@@ -337,7 +375,7 @@
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
               data-lang="welcome_sub"
-            ></div>
+            >Size en iyi iş çözümlerini sunacak ve sisteminizi veya SAP projelerinizi optimize edeceğiz.</div>
             <!-- /tp-caption -->
 
             <!-- LAYER NR. 3 -->
@@ -351,7 +389,7 @@
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
             >
-              <a class="btn btn-white" href="#about" data-lang="see_more"></a>
+              <a class="btn btn-white" href="#about" data-lang="see_more">Daha Fazlası</a>
             </div>
             <!-- /tp-caption -->
           </li>
@@ -381,7 +419,7 @@
               data-start="1200"
               data-easing="Power4.easeInOut"
               data-lang="welcome"
-            ></div>
+            ><span>Skycon</span>'a Hoşgeldiniz</div>
             <!-- /tp-caption -->
 
             <!-- LAYER NR. 2 -->
@@ -395,7 +433,7 @@
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
               data-lang="welcome_sub"
-            ></div>
+            >Size en iyi iş çözümlerini sunacak ve sisteminizi veya SAP projelerinizi optimize edeceğiz.</div>
             <!-- /tp-caption -->
 
             <!-- LAYER NR. 3 -->
@@ -409,7 +447,7 @@
               data-easing="Power4.easeInOut"
               data-captionhidden="on"
             >
-              <a class="btn btn-white" href="#about" data-lang="see_more"></a>
+              <a class="btn btn-white" href="#about" data-lang="see_more">Daha Fazlası</a>
             </div>
             <!-- /tp-caption -->
           </li>
@@ -669,7 +707,7 @@
           <div class="card-wrapper swiper-wrapper" style="border-radius:20px;">
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/everest.jpeg"> </img>
+              <img class="news-image" src="/images/everest.jpeg" alt="Everest MDG Project" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="everest-mdg"></h3>
                   <p class="news-content" data-lang="everest-mdg-sub"></p>
@@ -679,7 +717,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/arcelik.jpg"> </img>
+              <img class="news-image" src="/images/arcelik.jpg" alt="Arcelik S/4HANA Project" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="arcelik-s4"></h3>
                   <p class="news-content" data-lang="arcelik-s4-sub"></p>
@@ -689,7 +727,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/dimes-mdg.png"> </img>
+              <img class="news-image" src="/images/dimes-mdg.png" alt="Dimes MDG Project" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="dimes-mdg"></h3>
                   <p class="news-content" data-lang="dimes-mdg-sub"></p>
@@ -699,7 +737,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/otokar.jpeg"> </img>
+              <img class="news-image" src="/images/otokar.jpeg" alt="Otokar S/4HANA Project" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="otokar-s4"></h3>
                   <p class="news-content" data-lang="otokar-s4-sub"></p>
@@ -709,7 +747,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/clm.png"> </img>
+              <img class="news-image" src="/images/clm.png" alt="TANAP Contract Lifecycle Management" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="tanap-clm"></h3>
                   <p class="news-content" data-lang="tanap-clm-sub"></p>
@@ -719,7 +757,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/inci_2.png"> </img>
+              <img class="news-image" src="/images/inci_2.png" alt="Inci Aku S/4HANA Project" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="inci-s4"></h3>
                   <p class="news-content" data-lang="inci-s4-sub"></p>
@@ -729,7 +767,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/tanap_wm.png"> </img>
+              <img class="news-image" src="/images/tanap_wm.png" alt="TANAP Warehouse Management" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="tanap-wm"></h3>
                   <p class="news-content" data-lang="tanap-wm-sub"></p>
@@ -739,7 +777,7 @@
             </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/club.png"> </img>
+              <img class="news-image" src="/images/club.png" alt="Buyuk Kulup Digital Transformation" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="buyuk-s4"></h3>
                   <p class="news-content" data-lang="buyuk-s4-sub"></p>
@@ -749,7 +787,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/tupras.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/tupras.png" alt="Tupras S/4HANA Upgrade" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="tupras-s4"></h3>
                   <p class="news-content" data-lang="tupras-s4-sub"></p>
@@ -759,7 +797,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/KFG.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/KFG.png" alt="Kout Food Group SAP MDG" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="kfg"></h3>
                   <p class="news-content" data-lang="kfg-sub"></p>
@@ -769,7 +807,7 @@
           </div>
             <!------------->
             <div class="card swiper-slide">
-              <img class="news-image" src="/images/izmakpar.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/izmakpar.png" alt="Izmakpar S/4HANA Project" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="izmakpar"></h3>
                   <p class="news-content" data-lang="izmakpar-sub"></p>
@@ -779,7 +817,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-            <img class="news-image" src="/images/sisecam.png" style="object-position: bottom;"> </img>
+            <img class="news-image" src="/images/sisecam.png" alt="Sisecam S/4HANA Conversion" style="object-position: bottom;" loading="lazy"> </img>
             <div class="news-text">
                 <h3 class="news-title" data-lang="sisecam"></h3>
                 <p class="news-content" data-lang="sisecam-sub"></p>
@@ -789,7 +827,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/diler.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/diler.png" alt="Diler Holding S/4HANA Project" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="diler"></h3>
                   <p class="news-content" data-lang="diler-sub"></p>
@@ -799,7 +837,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/hayat.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/hayat.png" alt="Hayat Holding S/4HANA Project" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="hayat"></h3>
                   <p class="news-content" data-lang="hayat-sub"></p>
@@ -809,7 +847,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/new_office.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/new_office.png" alt="Skycon R&D Center at Biruni Teknopark" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="new_office"></h3>
                   <p class="news-content" data-lang="new_office-sub"></p>
@@ -819,7 +857,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/vendor_portal.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/vendor_portal.png" alt="TANAP Vendor Portal" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="tanap-vp"></h3>
                   <p class="news-content" data-lang="tanap-vp-sub"></p>
@@ -829,7 +867,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/tofas.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/tofas.png" alt="TOFAS S/4HANA Conversion" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="tofas-s4"></h3>
                   <p class="news-content" data-lang="tofas-s4-sub"></p>
@@ -839,7 +877,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/new_hq.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/new_hq.png" alt="Skycon New Headquarters" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="new_hq"></h3>
                   <p class="news-content" data-lang="new_hq-sub"></p>
@@ -849,7 +887,7 @@
           </div>
             <!------------->
           <div class="card swiper-slide">
-              <img class="news-image" src="/images/kardemir.png" style="object-position: bottom;"> </img>
+              <img class="news-image" src="/images/kardemir.png" alt="Kardemir S/4HANA Project" style="object-position: bottom;" loading="lazy"> </img>
               <div class="news-text">
                   <h3 class="news-title" data-lang="kardemir-s4"></h3>
                   <p class="news-content" data-lang="kardemir-s4-sub"></p>
@@ -935,37 +973,41 @@
       </div>
     </section>
     <!--contact section end-->
-    <div id="footer"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/js/darkreader.js" type="text/javascript"></script>
-    <script src="/js/moderniz.min.js" type="text/javascript"></script>
-    <script src="/js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <!-- bootstrap js-->
-    <script
-      src="/bootstrap/js/bootstrap.min.js"
-      type="text/javascript"
-    ></script>
-    <script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="/js/parallax.min.js"></script>
-    <script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>
-    <!-- Swiper JS -->
+    <!-- Footer (inlined to avoid extra HTTP request) -->
+    <footer class="footer">
+      <div class="container text-center">
+        <span class="alo">Skycon Information Technology and Consultancy Services</span>
+        <ul class="social list-inline">
+          <li>
+            <a href="https://www.linkedin.com/company/skyconis/" target="_blank"
+              ><i class="icon icon-social-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+        <span class="copyright">&copy; Copyright 2025. Skycon Consulting.</span>
+      </div>
+    </footer>
+
+    <!-- jQuery (single instance, local) -->
+    <script src="/js/jquery.min.js"></script>
+    <!-- Core plugins -->
+    <script src="/js/darkreader.js"></script>
+    <script src="/js/moderniz.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Slider & carousel -->
+    <script src="/js/jquery.flexslider-min.js" defer></script>
+    <script src="/js/parallax.min.js" defer></script>
+    <script src="/js/jqBootstrapValidation.js" defer></script>
     <script src="/js/swiper-bundle.min.js"></script>
-
-    <!-- JavaScript -->
-    <script src="/js/script.js" type="text/javascript"></script>
-    <!--revolution slider scripts-->
-    <script
-      src="/rs-plugin/js/jquery.themepunch.tools.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="/rs-plugin/js/jquery.themepunch.revolution.min.js"
-      type="text/javascript"
-    ></script>
-    <script src="/js/template.js" type="text/javascript"></script>
-
+    <!-- App JS -->
+    <script src="/js/script.js"></script>
+    <!-- Revolution Slider -->
+    <script src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/js/template.js"></script>
+    <!-- Ionicons (deferred, not needed for first paint) -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
