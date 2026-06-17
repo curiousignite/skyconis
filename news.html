@@ -1,330 +1,306 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr" data-theme="dark">
   <head>
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          "gtm.start": new Date().getTime(),
-          event: "gtm.js",
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-KJJNXLRV");
-    </script>
-    <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NGTR23LDJG"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGTR23LDJG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag() { dataLayer.push(arguments); }
       gtag("js", new Date());
-
       gtag("config", "G-NGTR23LDJG");
     </script>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/images/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/images/favicon-16x16.png"
-    />
+    <meta name="description" content="Skycon haberleri: S/4HANA dönüşümleri, MDG projeleri, ürün lansmanları ve şirket haberleri." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://skyconis.com/news.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skyconis.com/news.html" />
+    <meta property="og:title" content="Haberler | Skycon" />
+    <meta property="og:description" content="Skycon haberleri: S/4HANA dönüşümleri, MDG projeleri, ürün lansmanları ve şirket haberleri." />
+    <meta property="og:image" content="https://skyconis.com/images/android-chrome-384x384.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="/images/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <style>
-      nav.before-color .navbar-nav > li > a:hover {
-        color: var(--black);
-      }
-    </style>
-    <title>News</title>
-    <!-- Loading Header&Footer -->
-    <script src="//code.jquery.com/jquery-3.6.3.js"></script>
-    <script>
-      $(function () {
-        $("#footer").load("footer.html");
-      });
-    </script>
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="/css/flexslider.css" rel="stylesheet" type="text/css" />
-    <link href="/icons/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-    <link
-      href="/icons/css/simple-line-icons.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#070d1f" />
+
+    <title>Haberler | Skycon</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--revolution slider setting css-->
-    <link href="rs-plugin/css/settings.css" rel="stylesheet" />
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <script src="/js/main.js" defer></script>
   </head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="80">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-KJJNXLRV"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <img
-      loading="lazy"
-      onclick="topFunction()"
-      id="goTop"
-      src="/images/up-arrow-svgrepo-com.svg"
-    />
-    <!-- Static navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top before-color">
+  <body>
+    <header class="site-header over-hero">
       <div class="container">
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbar"
-            aria-controls="navbar"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <a class="brand" href="/index.html">
+          <img src="/images/SkyConisLogo.png" alt="Skycon logo" />
+          <span>Skycon</span>
+        </a>
+        <nav class="main-nav" id="main-nav">
+          <a href="/index.html#about" data-lang="about">Hakkımızda</a>
+          <a href="/index.html#services" data-lang="services">Hizmetlerimiz</a>
+          <a href="/products.html" data-lang="products">Ürünlerimiz</a>
+          <a href="/references.html" data-lang="references">Referanslar</a>
+          <a href="/news.html" class="active" data-lang="news">Haberler</a>
+          <a href="/index.html#contact" data-lang="contact">İletişim</a>
+        </nav>
+        <div class="header-tools">
+          <div class="lang-switch" role="group" aria-label="Dil seçimi">
+            <button type="button" data-set-lang="tr">TR</button>
+            <button type="button" data-set-lang="en">EN</button>
+          </div>
+          <button type="button" class="theme-toggle" aria-label="Tema değiştir">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
           </button>
-          <a href="index.html#home">
-            <img
-              class="logo"
-              src="/images/SkyConisLogo.png"
-              style="max-width: 50px; margin-top: 5px"
-              alt="skycon_logo"
-          /></a>
-          <a class="navbar-brand alo" href="index.html">Skycon</a>
+          <button type="button" class="nav-toggle" aria-label="Menü" aria-controls="main-nav">
+            <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+            <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right scroll-to">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/index.html#about">About</a></li>
-            <li><a href="/index.html#team">Team</a></li>
-            <li><a href="/index.html#services">Services</a></li>
-            <li><a href="/index.html#news">News</a></li>
-            <li><a href="/index.html#contact">Contact</a></li>
-            <li><a href="/products.html">Products</a></li>
-            <li>
-              <a
-                id="colored"
-                onClick="javascript:topFunction()"
-                style="cursor: pointer"
-                >References</a
-              >
-            </li>
+      </div>
+    </header>
 
-            <div class="toggle-container">
-              <!-- partial:index.partial.html -->
-              <svg display="none">
-                <symbol id="light" viewBox="0 0 24 24">
-                  <g
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                  >
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(0,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(45,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(90,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(135,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(180,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(225,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(270,12,12)"
-                    />
-                    <line
-                      x1="12"
-                      y1="17"
-                      x2="12"
-                      y2="20"
-                      transform="rotate(315,12,12)"
-                    />
-                  </g>
-                  <circle fill="currentColor" cx="12" cy="12" r="5" />
-                </symbol>
-                <symbol id="dark" viewBox="0 0 24 24">
-                  <path
-                    fill="currentColor"
-                    d="M15.1,14.9c-3-0.5-5.5-3-6-6C8.8,7.1,9.1,5.4,9.9,4c0.4-0.8-0.4-1.7-1.2-1.4C4.6,4,1.8,7.9,2,12.5c0.2,5.1,4.4,9.3,9.5,9.5c4.5,0.2,8.5-2.6,9.9-6.6c0.3-0.8-0.6-1.7-1.4-1.2C18.6,14.9,16.9,15.2,15.1,14.9z"
-                  />
-                </symbol>
-              </svg>
-              <label class="switch">
-                <input
-                  class="switch__input"
-                  type="checkbox"
-                  name="dark"
-                  id="dark"
-                />
-                <svg
-                  class="switch__icon"
-                  width="24px"
-                  height="24px"
-                  aria-hidden="true"
-                >
-                  <use href="#light" />
-                </svg>
-                <svg
-                  class="switch__icon"
-                  width="24px"
-                  height="24px"
-                  aria-hidden="true"
-                >
-                  <use href="#dark" />
-                </svg>
-                <span class="switch__inner"></span>
-                <span class="switch__inner-icons">
-                  <svg
-                    class="switch__icon"
-                    width="24px"
-                    height="24px"
-                    aria-hidden="true"
-                  >
-                    <use href="#light" />
-                  </svg>
-                  <svg
-                    class="switch__icon"
-                    width="24px"
-                    height="24px"
-                    aria-hidden="true"
-                  >
-                    <use href="#dark" />
-                  </svg>
-                </span>
-                <span class="switch__sr">Dark Mode</span>
-              </label>
-              <!-- partial -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="kicker" data-lang="news-kicker">Haberler</div>
+        <h1 data-lang="news-title">Yolculuğumuzu şekillendiren hikâyeler</h1>
+        <p data-lang="news-sub">Projelerimizden ve Skycon'dan son gelişmeler</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="news-grid">
+          <a class="news-card reveal" href="/news/everest-mdg.html">
+            <div class="thumb"><img src="/images/everest.jpeg" alt="Everest MDG Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2026">Ocak 2026</div>
+              <h3 data-lang="everest-mdg">Everest MDG Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="everest-mdg-sub">Master Veri Yönetimi yolculuğunda değerli iş ortağımız için yürüttüğümüz Everest Projesi'nde kritik bir fazı daha başarıyla tamamladık. Proje kapsamında Bursa ve Kayseri doğalgaz üretim yerlerinin SAP MDG-M süreçlerine entegrasyonunu canlıya aldık. Tasarım aşamasından canlıya geçişe kadar veri kalitesini en üst seviyeye taşıdık.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
             </div>
-          </ul>
+          </a>
+          <a class="news-card reveal" href="/news/arcelik-s4hana.html">
+            <div class="thumb"><img src="/images/arcelik.jpg" alt="Arçelik S/4HANA Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2026">Ocak 2026</div>
+              <h3 data-lang="arcelik-s4">Arçelik S/4HANA Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="arcelik-s4-sub">Arçelik, dijital dönüşüm vizyonu doğrultusunda SAP R/3 sisteminden SAP S/4HANA'ya geçiş projesini başarıyla tamamladı. Skycon olarak Business Partner entegrasyonu, SRM'de bütçe kontrollü satınalma yapısı ve talep–onay–sipariş süreçlerini kapsayan uçtan uca satınalma akışının yeni sisteme taşınması çalışmalarının liderliğini üstlendik.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/dimes-mdg.html">
+            <div class="thumb"><img src="/images/dimes-mdg.png" alt="Dimes MDG Dönüşümü Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2026">Ocak 2026</div>
+              <h3 data-lang="dimes-mdg">Dimes MDG Dönüşümü Canlıda!</h3>
+              <p class="excerpt" data-lang="dimes-mdg-sub">Dimes, SAP MDG dönüşümünü başarıyla tamamlayarak MDG-M ve MDG-BP süreçlerini devreye aldı. Skycon olarak tasarım, workflow, kural ve validasyonlar, entegrasyon ve go-live çalışmalarını uçtan uca yönettik.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/otokar-s4hana.html">
+            <div class="thumb"><img src="/images/otokar.jpeg" alt="Otokar S/4HANA Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2026">Ocak 2026</div>
+              <h3 data-lang="otokar-s4">Otokar S/4HANA Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="otokar-s4-sub">Otokar, dijital dönüşüm vizyonu doğrultusunda SAP R/3 sisteminden SAP S/4HANA'ya geçiş projesini başarıyla tamamladı. Skycon olarak Otokar Türkiye'nin tüm SD (Satış & Dağıtım) süreçleri ile Otokar Romanya ve Otokar Fransa'nın SD ve MM süreçlerinin liderliğini üstlendik.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/contract-management-tanap.html">
+            <div class="thumb"><img src="/images/clm.png" alt="Sözleşme Yönetiminde Yeni Dönem" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="june-2025">Haziran 2025</div>
+              <h3 data-lang="tanap-clm">Sözleşme Yönetiminde Yeni Dönem</h3>
+              <p class="excerpt" data-lang="tanap-clm-sub">TANAP (Trans Anadolu Doğal Gaz Boru Hattı Projesi), dijital dönüşüm vizyonu doğrultusunda sözleşme süreçlerini uçtan uca yönetmek amacıyla Skycon CLM (Contract Lifecycle Management) çözümünü devreye aldı.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/inci-aku-s4hana.html">
+            <div class="thumb"><img src="/images/inci_2.png" alt="İnci Akü "Run for S/4" Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="april-2025">Nisan 2025</div>
+              <h3 data-lang="inci-s4">İnci Akü "Run for S/4" Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="inci-s4-sub">İnci GS Yuasa, SAP R/3 sisteminden SAP S/4HANA'ya geçiş projesini başarıyla tamamladı. Proje NTT Data Türkiye liderliğinde yürütülürken, Skycon olarak MM (Malzeme Yönetimi) modülünün liderliğini üstlendik.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/warehouse-management-tanap.html">
+            <div class="thumb"><img src="/images/tanap_wm.png" alt="TANAP'ta WM Dönemi Başladı" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="feb-2025">Şubat 2025</div>
+              <h3 data-lang="tanap-wm">TANAP'ta WM Dönemi Başladı</h3>
+              <p class="excerpt" data-lang="tanap-wm-sub">TANAP, lojistik ve depo yönetimi operasyonlarını optimize etmek amacıyla SAP altyapısında Warehouse Management (WM) modülünü aktif hale getirdi.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/buyuk-kulup-digital.html">
+            <div class="thumb"><img src="/images/club.png" alt="Büyük Kulüp'ün Dijital Dönüşümü" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2025">Ocak 2025</div>
+              <h3 data-lang="buyuk-s4">Büyük Kulüp'ün Dijital Dönüşümü</h3>
+              <p class="excerpt" data-lang="buyuk-s4-sub">Köklü geçmişiyle İstanbul'un en prestijli kulüplerinden Büyük Kulüp, dijital dönüşüm yolculuğuna Skycon ile devam ediyor. Yeni rezervasyon sistemi, tedarikçi portalı entegrasyonu ve modern web sitesi projeleriyle kulüp, üyelerine daha hızlı ve kullanıcı dostu bir dijital deneyim sunacak.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/tupras-s4hana.html">
+            <div class="thumb"><img src="/images/tupras.png" alt="Tüpraş S/4HANA Upgrade" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2025">Ocak 2025</div>
+              <h3 data-lang="tupras-s4">Tüpraş S/4HANA Upgrade</h3>
+              <p class="excerpt" data-lang="tupras-s4-sub">Türkiye enerji sektörünün en büyük dönüşümlerinden biri olan TUPRISE S/4HANA projesinde, Skycon olarak ABAP/Fiori Development ekibinde yer aldık. Tüpraş'ın veri bütünlüğünü güçlendiren ve karar süreçlerini hızlandıran bu dijital dönüşüme katkı sağlamaktan gurur duyuyoruz.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/kout-food-group-mdg.html">
+            <div class="thumb"><img src="/images/KFG.png" alt="Kout Food Group – SAP MDG Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="december-2024">Aralık 2024</div>
+              <h3 data-lang="kfg">Kout Food Group – SAP MDG Canlıda!</h3>
+              <p class="excerpt" data-lang="kfg-sub">Kuveyt'in perakende ve restoran zinciri operatörlerinden Kout Food Group, NTT liderliğinde yürütülen SAP dönüşüm projesini başarıyla canlıya aldı. Bu dönüşümde Skycon olarak Master Data Governance (MDG) ekibinde yer almaktan ve global ölçekte bir veri yönetimi altyapısının kurulmasına katkı sağlamaktan gurur duyuyoruz.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/izmakpar-s4hana.html">
+            <div class="thumb"><img src="/images/izmakpar.png" alt="İzmakpar S/4HANA Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="december-2024">Aralık 2024</div>
+              <h3 data-lang="izmakpar">İzmakpar S/4HANA Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="izmakpar-sub">NTT Data liderliğinde yürütülen İzmakpar SAP S/4HANA Conversion Projesi başarıyla tamamlandı. 1997'den bu yana sac, kauçuk ve plastik kalıp imalatı alanında faaliyet gösteren İzmakpar, bu projeyle S/4HANA platformuna modern bir dönüşüm gerçekleştirdi. Skycon olarak MM ekibi kapsamında görev alarak bu dönüşüme katkı sağladık.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/sisecam-s4hana.html">
+            <div class="thumb"><img src="/images/sisecam.png" alt="Şişecam SAP S/4HANA Conversion Projesi" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="april-2024">Nisan 2024</div>
+              <h3 data-lang="sisecam">Şişecam SAP S/4HANA Conversion Projesi</h3>
+              <p class="excerpt" data-lang="sisecam-sub">NTT Data liderliğinde yürütülen SAP S/4HANA Conversion Projesi kapsamında MM ekibinde aktif rol aldık. Proje; Türkiye, İtalya, Gürcistan, Hindistan, Romanya ve Slovakya lokasyonlarını kapsayacak şekilde gerçekleştirildi.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/diler-s4hana.html">
+            <div class="thumb"><img src="/images/diler.png" alt="Diler Holding S/4HANA Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="oct-2023">Ekim 2023</div>
+              <h3 data-lang="diler">Diler Holding S/4HANA Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="diler-sub">Diler Demir Çelik'in SAP dijital dönüşüm projesi NTT Data liderliğinde başarıyla gerçekleşti. Skycon olarak MM modülü ekibinde yer alarak süreçlerin modernleşmesine ve operasyonel verimliliğin artırılmasına katkı sağladık.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/hayat-s4hana.html">
+            <div class="thumb"><img src="/images/hayat.png" alt="Hayat Holding S/4HANA Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="oct-2023">Ekim 2023</div>
+              <h3 data-lang="hayat">Hayat Holding S/4HANA Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="hayat-sub">Hayat Kimya'nın SAP dönüşüm projesi, NTT Data liderliğinde R/3'ten S/4HANA'ya başarıyla tamamlandı. Skycon olarak MM ekibinde yer alarak tedarik ve malzeme yönetimi süreçlerinin modernleşmesine katkı sağladık.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/skycon-rd-center.html">
+            <div class="thumb"><img src="/images/new_office.png" alt="Skycon Yeni Ar-Ge Merkezi" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="may-2023">Mayıs 2023</div>
+              <h3 data-lang="new_office">Skycon Yeni Ar-Ge Merkezi</h3>
+              <p class="excerpt" data-lang="new_office-sub">Skycon ailesi büyüyor! Biruni Teknopark'taki yeni ofisimiz açıldı. Ar-Ge çalışmalarımız, yazılım ürünlerimiz ve SAP projelerimiz için daha hızlı, daha yaratıcı ve daha etkili çözümler üretmek üzere yeni ofisimizdeyiz.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/vendor-portal-tanap.html">
+            <div class="thumb"><img src="/images/vendor_portal.png" alt="TANAP Vendor Portal Projesi Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="april-2023">Nisan 2023</div>
+              <h3 data-lang="tanap-vp">TANAP Vendor Portal Projesi Canlıda!</h3>
+              <p class="excerpt" data-lang="tanap-vp-sub">TANAP, tedarik zinciri süreçlerini dijitalleştirmek amacıyla Skycon'un kendi ürünü olan Vendor Portal çözümünü devreye aldı. Bu proje kapsamında teklif toplama, sipariş yaratma ve tedarikçi yönetimi süreçleri uçtan uca dijital hale getirildi.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/tofas-s4hana.html">
+            <div class="thumb"><img src="/images/tofas.png" alt="TOFAŞ S/4HANA Canlıda!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="sep-2022">Eylül 2022</div>
+              <h3 data-lang="tofas-s4">TOFAŞ S/4HANA Canlıda!</h3>
+              <p class="excerpt" data-lang="tofas-s4-sub">TOFAŞ S/4HANA Conversion projesinde, Skycon olarak Malzeme Yönetimi (MM) ekibinde görev aldık. Tedarik zinciri süreçlerinin sadeleşmesine ve veri kalitesinin güçlenmesine katkı sağlayarak TOFAŞ'ın dijital dönüşüm yolculuğunda yer almaktan gurur duyuyoruz.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/skycon-new-hq.html">
+            <div class="thumb"><img src="/images/new_hq.png" alt="Skycon Yeni Merkezinde!" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="oct-2021">Ekim 2021</div>
+              <h3 data-lang="new_hq">Skycon Yeni Merkezinde!</h3>
+              <p class="excerpt" data-lang="new_hq-sub">Skycon olarak Kadıköy'deki yeni çalışma alanımıza taşındık. Daha modern ve verimli bu ofis ortamı, ekiplerimize güçlü bir çalışma deneyimi sunarken şirketimizin büyüme vizyonunu da destekliyor.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
+          <a class="news-card reveal" href="/news/kardemir-s4hana.html">
+            <div class="thumb"><img src="/images/kardemir.png" alt="KARDEMİR S/4HANA'da" loading="lazy" /></div>
+            <div class="body">
+              <div class="news-date" data-lang="jan-2021">Ocak 2021</div>
+              <h3 data-lang="kardemir-s4">KARDEMİR S/4HANA'da</h3>
+              <p class="excerpt" data-lang="kardemir-s4-sub">Atatürk'ün sanayileşme vizyonuyla 1937'de temeli atılan, Türkiye'nin ilk entegre demir-çelik fabrikası KARDEMİR, R/3'ten S/4HANA'ya geçti. Skycon olarak MM ekibinde yer alarak bu tarihi mirasın dijital dönüşümüne katkı sağladık.</p>
+              <span class="read-more"><span data-lang="more_info">Devamını Oku</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+            </div>
+          </a>
         </div>
-        <!--/.nav-collapse -->
       </div>
-      <!--/.container-fluid -->
-    </nav>
+    </section>
 
-    <div class="page-title">
-      <div class="container text-center">
-        <h1>News</h1>
-        <br />
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="brand" href="/index.html">
+              <img src="/images/SkyConisLogo.png" alt="Skycon logo" />
+              <span>Skycon</span>
+            </a>
+            <p data-lang="footer-about">SAP danışmanlığı, ERP çözümleri, tedarik zinciri yönetimi ve dijital dönüşüm hizmetleri sunan bilgi teknolojileri şirketi.</p>
+            <a class="social-link" href="https://www.linkedin.com/company/skyconis/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+              <span data-lang="footer-linkedin">LinkedIn'de takip edin</span>
+            </a>
+          </div>
+          <div>
+            <h4 data-lang="footer-links">Hızlı Bağlantılar</h4>
+            <ul class="footer-links-list">
+              <li><a href="/index.html#about" data-lang="about">Hakkımızda</a></li>
+              <li><a href="/index.html#services" data-lang="services">Hizmetlerimiz</a></li>
+              <li><a href="/products.html" data-lang="products">Ürünlerimiz</a></li>
+              <li><a href="/references.html" data-lang="references">Referanslar</a></li>
+              <li><a href="/news.html" data-lang="news">Haberler</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 data-lang="footer-contact">İletişim</h4>
+            <ul class="footer-contact-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span><span data-lang="contact-hq">Merkez Ofis</span> — <span data-lang="contact-hq-loc">Kadıköy, İstanbul</span></span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span><span data-lang="contact-tech">Teknokent Ofis</span> — <span data-lang="contact-tech-loc">Biruni Teknopark, Zeytinburnu, İstanbul</span></span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                <a href="mailto:info@skyconis.com">info@skyconis.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 Skycon Information Technology and Consultancy Services. <span data-lang="footer-rights">Tüm hakları saklıdır.</span></span>
+        </div>
       </div>
-    </div>
-    <!--page title-->
-
-    <!--footer-->
-    <div id="footer"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/js/darkreader.js" type="text/javascript"></script>
-    <script src="/js/moderniz.min.js" type="text/javascript"></script>
-    <script src="/js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <!-- bootstrap js-->
-    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="/js/parallax.min.js"></script>
-    <script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>
-    <!-- Swiper JS -->
-    <script src="/js/swiper-bundle.min.js"></script>
-
-    <!-- JavaScript -->
-    <script src="/js/script.js" type="text/javascript"></script>
-    <!--revolution slider scripts-->
-    <script
-      src="rs-plugin/js/jquery.themepunch.tools.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="rs-plugin/js/jquery.themepunch.revolution.min.js"
-      type="text/javascript"
-    ></script>
-    <script src="/js/template.js" type="text/javascript"></script>
+    </footer>
   </body>
 </html>

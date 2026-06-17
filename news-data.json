@@ -1,0 +1,118 @@
+[
+  {
+    "key": "everest-mdg",
+    "date": "jan-2026",
+    "image": "/images/everest.jpeg",
+    "page": "everest-mdg.html"
+  },
+  {
+    "key": "arcelik-s4",
+    "date": "jan-2026",
+    "image": "/images/arcelik.jpg",
+    "page": "arcelik-s4hana.html"
+  },
+  {
+    "key": "dimes-mdg",
+    "date": "jan-2026",
+    "image": "/images/dimes-mdg.png",
+    "page": "dimes-mdg.html"
+  },
+  {
+    "key": "otokar-s4",
+    "date": "jan-2026",
+    "image": "/images/otokar.jpeg",
+    "page": "otokar-s4hana.html"
+  },
+  {
+    "key": "tanap-clm",
+    "date": "june-2025",
+    "image": "/images/clm.png",
+    "page": "contract-management-tanap.html"
+  },
+  {
+    "key": "inci-s4",
+    "date": "april-2025",
+    "image": "/images/inci_2.png",
+    "page": "inci-aku-s4hana.html",
+    "content": true
+  },
+  {
+    "key": "tanap-wm",
+    "date": "feb-2025",
+    "image": "/images/tanap_wm.png",
+    "page": "warehouse-management-tanap.html"
+  },
+  {
+    "key": "buyuk-s4",
+    "date": "jan-2025",
+    "image": "/images/club.png",
+    "page": "buyuk-kulup-digital.html",
+    "content": true
+  },
+  {
+    "key": "tupras-s4",
+    "date": "jan-2025",
+    "image": "/images/tupras.png",
+    "page": "tupras-s4hana.html"
+  },
+  {
+    "key": "kfg",
+    "date": "december-2024",
+    "image": "/images/KFG.png",
+    "page": "kout-food-group-mdg.html"
+  },
+  {
+    "key": "izmakpar",
+    "date": "december-2024",
+    "image": "/images/izmakpar.png",
+    "page": "izmakpar-s4hana.html"
+  },
+  {
+    "key": "sisecam",
+    "date": "april-2024",
+    "image": "/images/sisecam.png",
+    "page": "sisecam-s4hana.html"
+  },
+  {
+    "key": "diler",
+    "date": "oct-2023",
+    "image": "/images/diler.png",
+    "page": "diler-s4hana.html"
+  },
+  {
+    "key": "hayat",
+    "date": "oct-2023",
+    "image": "/images/hayat.png",
+    "page": "hayat-s4hana.html"
+  },
+  {
+    "key": "new_office",
+    "date": "may-2023",
+    "image": "/images/new_office.png",
+    "page": "skycon-rd-center.html"
+  },
+  {
+    "key": "tanap-vp",
+    "date": "april-2023",
+    "image": "/images/vendor_portal.png",
+    "page": "vendor-portal-tanap.html"
+  },
+  {
+    "key": "tofas-s4",
+    "date": "sep-2022",
+    "image": "/images/tofas.png",
+    "page": "tofas-s4hana.html"
+  },
+  {
+    "key": "new_hq",
+    "date": "oct-2021",
+    "image": "/images/new_hq.png",
+    "page": "skycon-new-hq.html"
+  },
+  {
+    "key": "kardemir-s4",
+    "date": "jan-2021",
+    "image": "/images/kardemir.png",
+    "page": "kardemir-s4hana.html"
+  }
+]
