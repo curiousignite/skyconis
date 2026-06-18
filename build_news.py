@@ -15,6 +15,7 @@ Yeni haber eklemek için:
   2. news-data.json listesinin BAŞINA yeni kaydı ekle
   3. python3 build_news.py
 """
+
 import json
 
 HOME_CARD_COUNT = 6
@@ -67,8 +68,10 @@ def main():
     cards = [render(card_tpl, item, tr) for item in data]
     replace_grid("index.html", "\n".join(cards[:HOME_CARD_COUNT]))
     replace_grid("news.html", "\n".join(cards))
-    print("index.html (%d kart) ve news.html (%d kart) güncellendi"
-          % (HOME_CARD_COUNT, len(cards)))
+    print(
+        "index.html (%d kart) ve news.html (%d kart) güncellendi"
+        % (HOME_CARD_COUNT, len(cards))
+    )
 
 
 if __name__ == "__main__":
